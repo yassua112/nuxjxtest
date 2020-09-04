@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "nodemon": "^2.0.4",
+    "npm-git-install": "^0.3.0",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {}
+}
