@@ -1,10 +1,10 @@
 <template>
   
   <div id="wrapper">
-	<app-sidebar v-if="isAuth"></app-sidebar>
+	<app-sidebar ></app-sidebar>
       <div id="content-wrapper" class="d-flex flex-column">
 			    <div id="content">
-						<app-header v-if="isAuth"></app-header>
+						<app-header ></app-header>
 					<nuxt/>
 				</div>
 		</div>    
